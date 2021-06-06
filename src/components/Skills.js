@@ -20,7 +20,6 @@ export default function Skills () {
           <span><SiSass size={36} /></span>
           <span><SiNextDotJs size={36} /></span>
           <span><SiSvelte size={36} /></span>
-          <span><SiExpo size={36} /></span>
           <span><SiPhp size={36} /></span>
           <span><SiPython size={36} /></span>
           <span><SiPowershell size={36} /></span>
