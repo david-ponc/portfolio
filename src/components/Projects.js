@@ -12,7 +12,10 @@ function Projects () {
                 <p className={styles.project__category} >{project.category}</p>
                 <h2>{project.name}</h2>
                 <p>{project.content}</p>
-                <a href={project['link-project']} target="_blank" className={styles.project__link} >Visit site</a>
+                <div className={styles['project__links-collection']}>
+                  <a href={project['link-source']} target="_blank" rel="noreferrer" className={styles['project__link-alt']} >View code</a>
+                  <a href={project['link-project']} target="_blank" rel="noreferrer" className={styles.project__link} >Visit site</a>
+                </div>
               </div>
               <img src={project.image} alt={project.name}/>
             </article>
@@ -25,7 +28,10 @@ function Projects () {
                 <p className={styles.project__category} >{project.category}</p>
                 <h2>{project.name}</h2>
                 <p>{project.content}</p>
-                <a href={project['link-project']} target="_blank" className={styles.project__link} >Visit site</a>
+                <div className={styles['project__links-collection']}>
+                  <a href={project['link-source']} target="_blank" rel="noreferrer" className={styles['project__link-alt']}>View code</a>
+                  <a href={project['link-project']} target="_blank" rel="noreferrer" className={styles.project__link} >Visit site</a>
+                </div>
               </div>
             </article>
           )
