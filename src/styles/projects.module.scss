@@ -25,7 +25,6 @@
     }
   }
 
-
   &__details {
     display: grid;
     grid-auto-rows: auto auto auto auto;
@@ -36,18 +35,33 @@
   &__category {
     font-size: 0.75rem;
     font-weight: 500;
-    color: #DF2171;
+    color: #df2171;
   }
 
   &__link {
     border-radius: 6px;
     padding: 0.5rem 1.5rem;
-    background: #DF2171;
-    color: #FFFFFF;
+    background: #df2171;
+    color: #ffffff;
     justify-self: flex-end;
     align-self: center;
     font-weight: 500;
     font-size: 0.875rem;
+
+    &-alt {
+      color: #df2171;
+      background: #ffffff;
+      justify-self: flex-end;
+      align-self: center;
+      font-weight: 500;
+      font-size: 0.875rem;
+      margin-right: 2rem;
+    }
+  }
+
+  &__links-collection {
+    display: flex;
+    justify-content: flex-end;
   }
 
   @media screen and (max-width: 1140px) {

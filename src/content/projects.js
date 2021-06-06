@@ -9,6 +9,7 @@ export default [
       The application has an authentication system,
       to keep each to-do list per account secure and private.
     `,
+    'link-source': 'https://github.com/davidp46/todo-app-client',
     'link-project': 'https://todo.davidponc.me'
   },
   {
@@ -22,6 +23,7 @@ export default [
       you can search for countries by name.
       Where you can search the countries by name.
     `,
+    'link-source': 'https://github.com/davidp46/covid-19-countries-list',
     'link-project': 'https://davidp46.github.io/covid-19-countries-list/'
   }
 ]
